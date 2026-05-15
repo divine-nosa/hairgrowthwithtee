@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hair Growth with Tee — Where Growth Begins, Glow Follows</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" type="image/x-icon" href="IMG-20260514-WA0144.png">
+
+<title>Tee Hair Care | Premium Organic Hair Growth Solutions</title>
+<meta name="description" content="Experience the luxury of organic hair care with Tee Hair Care. Shop our Growth Elixir, Nourish Butter, and Scalp Cleanse for stronger, healthier hair.">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://divine-nosa.github.io/hairgrowthwithtee/">
+<meta property="og:title" content="Tee Hair Care — Where Growth Begins">
+<meta property="og:description" content="Luxury organic hair care for stronger, fuller hair. Explore our premium collection and start your growth journey today.">
+<meta property="og:image" content="https://divine-nosa.github.io/hairgrowthwithtee/IMG-20260514-WA0144.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tee Hair Care | Organic Growth Rituals">
+<meta name="twitter:description" content="Premium, magazine-style hair care for the modern woman. Shop our organic growth system.">
+<meta name="twitter:image" content="https://divine-nosa.github.io/hairgrowthwithtee/IMG-20260514-WA0144.png">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:     #0c1a0c;
+      --forest:  #1e4d1e;
+      --green:   #2d6a2d;
+      --mid:     #4a9e4a;
+      --sage:    #a8c4a8;
+      --cream:   #f7f3eb;
+      --parchment: #ede9df;
+      --white:   #ffffff;
+      --gold:    #c9a84c;
+      --muted:   #6b7c6b;
+      --phone:   "08153209453";
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      overflow-x: hidden;
+      cursor: default;
+    }
+
+    /* ══════════════════════════════════════
+       NAV
+    ══════════════════════════════════════ */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 6%;
+      transition: background 0.4s, box-shadow 0.4s;
+    }
+    #nav.scrolled {
+      background: rgba(247,243,235,0.95);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 2px 30px rgba(0,0,0,0.07);
+    }
+    .nav-logo img { height: 36px; filter: brightness(0) invert(1); transition: filter 0.4s; }
+    #nav.scrolled .nav-logo img { filter: none; }
+
+    .nav-links { display: flex; gap: 36px; list-style: none; }
+    .nav-links a {
+      text-decoration: none; font-size: 0.82rem; font-weight: 500;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: rgba(255,255,255,0.85); transition: color 0.2s;
+    }
+    #nav.scrolled .nav-links a { color: var(--ink); }
+    .nav-links a:hover { color: var(--mid); }
+
+    .nav-cta {
+      background: white; color: var(--green); border: none;
+      padding: 9px 22px; border-radius: 100px;
+      font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em;
+      text-decoration: none; transition: all 0.2s;
+    }
+    #nav.scrolled .nav-cta { background: var(--green); color: white; }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,0,0,0.15); }
+
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: white; border-radius: 2px; transition: background 0.4s; }
+    #nav.scrolled .hamburger span { background: var(--ink); }
+
+    /* mobile menu */
+    .mobile-menu {
+      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--ink); z-index: 300;
+      flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { color: white; font-size: 1.6rem; font-family: 'Cormorant Garamond', serif; text-decoration: none; }
+    .mobile-close { position: absolute; top: 20px; right: 6%; color: white; font-size: 2rem; cursor: pointer; background: none; border: none; }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    .hero {
+      position: relative; height: 100vh; min-height: 600px;
+      display: flex; align-items: flex-end;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('1000764436.jpg');
+      background-size: cover; background-position: center 56.5%;
+      transform: scale(1.05);
+      animation: heroZoom 12s ease-out forwards;
+    }
+    @keyframes heroZoom { to { transform: scale(1); } }
+
+    .hero-gradient {
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        to top,
+        rgba(10,25,10,0.92) 0%,
+        rgba(10,25,10,0.5) 45%,
+        rgba(10,25,10,0.1) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative; z-index: 2;
+      padding: 0 7% 8px;
+      width: 100%;
+      animation: heroUp 1s ease 0.3s both;
+    }
+    @keyframes heroUp { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
+
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      color: var(--sage); font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 20px;
+    }
+    .hero-eyebrow::before {
+      content: ''; display: block; width: 30px; height: 1px; background: var(--sage);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 7vw, 6.5rem);
+      font-weight: 300; line-height: 1.05;
+      color: white; margin-bottom: 28px; max-width: 800px;
+    }
+    .hero h1 em { font-style: italic; color: #7cc47c; }
+
+    .hero-sub {
+      font-size: 1rem; color: rgba(255,255,255,0.65); line-height: 1.6;
+      max-width: 500px; margin-bottom: 40px; font-weight: 300;
+    }
+
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+
+    .btn-glow {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--green); color: white;
+      padding: 14px 32px; border-radius: 100px;
+      font-size: 0.9rem; font-weight: 600; text-decoration: none;
+      transition: all 0.3s;
+      box-shadow: 0 0 0 0 rgba(74,158,74,0.4);
+      animation: pulse 2.5s infinite 2s;
+    }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 0 0 0 rgba(74,158,74,0.4); }
+      50% { box-shadow: 0 0 0 14px rgba(74,158,74,0); }
+    }
+    .btn-glow:hover { background: var(--mid); transform: translateY(-2px); }
+
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: white; border: 1px solid rgba(255,255,255,0.35);
+      padding: 13px 30px; border-radius: 100px;
+      font-size: 0.9rem; font-weight: 500; text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-ghost:hover { border-color: white; background: rgba(255,255,255,0.08); }
+
+    /* hero scroll indicator */
+    .scroll-hint {
+      position: absolute; bottom: 30px; right: 6%; z-index: 2;
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      color: rgba(255,255,255,0.4); font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
+      animation: bounce 2s ease infinite;
+    }
+    .scroll-hint::after { content: ''; display: block; width: 1px; height: 40px; background: rgba(255,255,255,0.25); }
+    @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(6px)} }
+
+    /* ══════════════════════════════════════
+       MARQUEE
+    ══════════════════════════════════════ */
+    .marquee-strip {
+      background: var(--forest); overflow: hidden; padding: 15px 0;
+      white-space: nowrap; position: relative; z-index: 1;
+    }
+    .marquee-track {
+      display: inline-flex; animation: ticker 30s linear infinite;
+    }
+    .marquee-item {
+      color: rgba(255,255,255,0.85); font-size: 0.8rem; font-weight: 500;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      padding: 0 30px; display: inline-flex; align-items: center; gap: 16px;
+    }
+    .marquee-item::after { content: '✦'; color: var(--sage); opacity: 0.6; }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ══════════════════════════════════════
+       BRAND STORY — Editorial Split
+    ══════════════════════════════════════ */
+    .story-section {
+      display: grid; grid-template-columns: 1fr 1fr;
+      min-height: 90vh; overflow: hidden;
+    }
+    .story-image-side {
+      position: relative; overflow: hidden;
+    }
+    .story-image-side img {
+      width: 100%; height: 100%; object-fit: cover; object-position: top center;
+      transition: transform 0.8s ease;
+    }
+    .story-image-side:hover img { transform: scale(1.04); }
+
+    .story-text-side {
+      background: var(--cream); padding: 100px 8% 80px;
+      display: flex; flex-direction: column; justify-content: center;
+      position: relative;
+    }
+    .story-text-side::before {
+      content: '"';
+      position: absolute; top: 40px; left: 6%;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 12rem; line-height: 1; color: rgba(45,106,45,0.06);
+      pointer-events: none;
+    }
+    .story-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--green); margin-bottom: 20px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .story-label::before { content:''; display:block; width:24px; height:1px; background:var(--green); }
+
+    .story-text-side h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3.5vw, 3.2rem);
+      font-weight: 400; line-height: 1.2; margin-bottom: 32px; color: var(--ink);
+    }
+    .story-text-side h2 em { font-style: italic; color: var(--green); }
+
+    .story-body {
+      font-size: 0.97rem; line-height: 1.85; color: var(--muted);
+      font-weight: 300; margin-bottom: 40px;
+    }
+    .story-body p + p { margin-top: 16px; }
+
+    .story-stats {
+      display: flex; gap: 0; border-top: 1px solid var(--parchment);
+      padding-top: 36px; margin-top: 8px;
+    }
+    .stat-item { flex: 1; }
+    .stat-item + .stat-item { border-left: 1px solid var(--parchment); padding-left: 30px; }
+    .stat-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem; font-weight: 600; color: var(--green); line-height: 1;
+    }
+    .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 4px; font-weight: 400; }
+
+    /* ══════════════════════════════════════
+       PRODUCT SECTIONS — Full Width, Varied
+    ══════════════════════════════════════ */
+
+    /* === GROWTH ELIXIR — Dark editorial === */
+    .elixir-section {
+      background: var(--ink); overflow: hidden;
+      position: relative; min-height: 100vh;
+      display: flex; align-items: stretch;
+    }
+    .elixir-left {
+      flex: 1; padding: 120px 5% 80px 7%;
+      display: flex; flex-direction: column; justify-content: center;
+      position: relative; z-index: 2;
+    }
+
+    .prod-label {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.22em;
+      text-transform: uppercase; color: var(--sage); margin-bottom: 24px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .prod-label::before { content:''; display:block; width:20px; height:1px; background:currentColor; }
+
+    .elixir-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      font-weight: 300; line-height: 1.05; color: white; margin-bottom: 32px;
+    }
+    .elixir-left h2 em { display: block; font-style: italic; color: #7cc47c; }
+
+    .elixir-body {
+      font-size: 0.95rem; line-height: 1.8; color: rgba(255,255,255,0.55);
+      max-width: 460px; margin-bottom: 40px; font-weight: 300;
+    }
+
+    .benefit-pills {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 40px;
+    }
+    .pill {
+      border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.7);
+      padding: 7px 18px; border-radius: 100px; font-size: 0.8rem; font-weight: 400;
+    }
+
+    .elixir-right {
+      width: 45%; position: relative; overflow: hidden;
+      flex-shrink: 0;
+    }
+    .elixir-right .main-img {
+      width: 100%; height: 100%; object-fit: cover; object-position: center;
+    }
+    .elixir-right::before {
+      content: ''; position: absolute; inset: 0; z-index: 1;
+      background: linear-gradient(to right, var(--ink) 0%, transparent 30%);
+    }
+    .elixir-right .accent-img {
+      position: absolute; bottom: -20px; left: -20px; z-index: 2;
+      width: 200px; height: 200px; object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      border: 3px solid rgba(255,255,255,0.06);
+    }
+
+    .elixir-bg-text {
+      position: absolute; bottom: -20px; left: 0; right: 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18vw; font-weight: 700; line-height: 1;
+      color: rgba(255,255,255,0.02); text-align: center;
+      pointer-events: none; white-space: nowrap; overflow: hidden;
+      text-transform: uppercase;
+    }
+
+    .results-strip {
+      border-top: 1px solid rgba(255,255,255,0.08); margin-top: 40px; padding-top: 32px;
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 0;
+    }
+    .result-item { padding-right: 24px; }
+    .result-item + .result-item { border-left: 1px solid rgba(255,255,255,0.08); padding-left: 24px; padding-right: 0; }
+    .result-week { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: #7cc47c; line-height: 1; }
+    .result-desc { font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-top: 4px; font-weight: 400; }
+
+    /* === NOURISH BUTTER — Light, organic === */
+    .butter-section {
+      background: var(--cream); overflow: hidden;
+      position: relative; min-height: 90vh;
+    }
+    .butter-headline-strip {
+      background: var(--parchment); padding: 60px 7%;
+      text-align: center; position: relative;
+    }
+    .butter-headline-strip h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3.5rem, 8vw, 8rem);
+      font-weight: 300; line-height: 0.95; color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+    .butter-headline-strip h2 em { font-style: italic; color: var(--green); }
+
+    .butter-body {
+      display: grid; grid-template-columns: 1fr 1fr 1fr;
+      min-height: 60vh;
+    }
+    .butter-col-img {
+      position: relative; overflow: hidden;
+    }
+    .butter-col-img img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+
+    .butter-col-text {
+      background: var(--forest); color: white;
+      padding: 70px 8%; display: flex; flex-direction: column; justify-content: center;
+    }
+    .butter-col-text .prod-label { color: var(--sage); }
+    .butter-col-text p {
+      font-size: 0.92rem; line-height: 1.85; color: rgba(255,255,255,0.65);
+      font-weight: 300; margin-bottom: 28px;
+    }
+    .butter-col-text .feat-list { list-style: none; display: flex; flex-direction: column; gap: 14px; margin-bottom: 36px; }
+    .butter-col-text .feat-list li {
+      display: flex; align-items: flex-start; gap: 14px;
+      font-size: 0.88rem; color: rgba(255,255,255,0.7); line-height: 1.5;
+    }
+    .feat-icon {
+      min-width: 28px; height: 28px; border-radius: 50%;
+      background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; flex-shrink: 0;
+    }
+
+    .butter-col-multi {
+      display: flex; flex-direction: column;
+    }
+    .butter-col-multi > div { flex: 1; overflow: hidden; position: relative; }
+    .butter-col-multi img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+    /* === SCALP CLEANSER — Diagonal overlay === */
+    .cleanser-section {
+      position: relative; min-height: 90vh; overflow: hidden;
+      background: #0a1f0a;
+    }
+    .cleanser-bg {
+      position: absolute; inset: 0;
+      background-image: url('IMG-20260507-WA0209.jpg.jpg');
+      background-size: cover; background-position: center;
+      opacity: 0.35;
+    }
+    .cleanser-content {
+      position: relative; z-index: 2;
+      display: grid; grid-template-columns: 1fr 1fr; min-height: 90vh;
+    }
+    .cleanser-left {
+      padding: 120px 5% 80px 7%; display: flex; flex-direction: column; justify-content: center;
+    }
+    .cleanser-left h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 5.5vw, 5rem);
+      font-weight: 300; line-height: 1.05; color: white; margin-bottom: 28px;
+    }
+    .cleanser-left h2 em { font-style: italic; color: #a0d4a0; display: block; }
+    .cleanser-left p { font-size: 0.95rem; line-height: 1.8; color: rgba(255,255,255,0.55); max-width: 430px; margin-bottom: 36px; font-weight: 300; }
+
+    .cleanser-feat-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px;
+    }
+    .cfeat {
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px; padding: 18px 20px;
+    }
+    .cfeat-title { font-size: 0.78rem; font-weight: 600; color: #a0d4a0; margin-bottom: 6px; }
+    .cfeat-body { font-size: 0.78rem; color: rgba(255,255,255,0.45); line-height: 1.5; }
+
+    .cleanser-right {
+      position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;
+    }
+    .cleanser-model {
+      height: 85%; object-fit: contain; position: relative; z-index: 2;
+      filter: drop-shadow(0 30px 60px rgba(0,0,0,0.5));
+    }
+
+    /* === CONDITIONER — Warm editorial === */
+    .conditioner-section {
+      background: var(--parchment);
+      padding: 120px 0; overflow: hidden;
+    }
+    .conditioner-inner {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch;
+    }
+    .cond-image-stack {
+      position: relative; min-height: 600px; overflow: hidden;
+    }
+    .cond-image-stack .img-main {
+      width: 100%; height: 100%; object-fit: cover; object-position: center;
+    }
+    .cond-image-stack .img-float {
+      position: absolute; bottom: 30px; right: -30px; z-index: 2;
+      width: 55%; aspect-ratio: 3/4; object-fit: cover; object-position: center top;
+      border-radius: 16px;
+      box-shadow: -20px 20px 60px rgba(0,0,0,0.15);
+      border: 4px solid var(--parchment);
+    }
+    .cond-text {
+      padding: 80px 8% 80px 6%; display: flex; flex-direction: column; justify-content: center;
+    }
+    .cond-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3.8rem);
+      font-weight: 400; line-height: 1.15; color: var(--ink); margin-bottom: 28px;
+    }
+    .cond-text h2 em { font-style: italic; color: var(--green); }
+    .cond-text p { font-size: 0.95rem; line-height: 1.85; color: var(--muted); font-weight: 300; margin-bottom: 36px; }
+
+    .cond-bullets { display: flex; flex-direction: column; gap: 18px; margin-bottom: 40px; }
+    .cond-bullet {
+      display: flex; align-items: flex-start; gap: 16px; padding-bottom: 18px;
+      border-bottom: 1px solid var(--parchment);
+    }
+    .cond-bullet:last-child { border-bottom: none; padding-bottom: 0; }
+    .bullet-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem; color: var(--sage); line-height: 1; min-width: 30px; font-weight: 600;
+    }
+    .bullet-text strong { display: block; font-size: 0.88rem; font-weight: 600; color: var(--ink); margin-bottom: 3px; }
+    .bullet-text span { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+
+    /* ══════════════════════════════════════
+       HOW TO USE — Tabbed, full width display
+    ══════════════════════════════════════ */
+    .howto-section {
+      background: var(--ink); padding: 100px 0;
+    }
+    .howto-header {
+      text-align: center; padding: 0 7% 60px;
+    }
+    .howto-header .section-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--sage); margin-bottom: 16px;
+    }
+    .howto-header h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 4.5vw, 4rem); font-weight: 300; color: white;
+    }
+    .howto-header h2 em { font-style: italic; color: #7cc47c; }
+
+    .howto-tabs {
+      display: flex; justify-content: center; gap: 4px; margin-bottom: 60px;
+      background: rgba(255,255,255,0.05); width: fit-content;
+      margin-left: auto; margin-right: auto;
+      border-radius: 100px; padding: 4px;
+    }
+    .tab-btn {
+      padding: 12px 36px; border-radius: 100px; border: none;
+      font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      background: transparent; color: rgba(255,255,255,0.45);
+      transition: all 0.3s; letter-spacing: 0.04em;
+    }
+    .tab-btn.active { background: var(--green); color: white; }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    .infographic-display {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 3px;
+    }
+    .infographic-display img {
+      width: 100%; height: 520px; object-fit: cover; object-position: top;
+      transition: transform 0.4s ease;
+    }
+    .infographic-display img:hover { transform: scale(1.02); z-index: 1; position: relative; }
+
+    /* Men's panel - single wide image */
+    .infographic-single {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 3px;
+    }
+    .infographic-single img {
+      width: 100%; height: 520px; object-fit: cover; object-position: top;
+    }
+
+    /* ══════════════════════════════════════
+       EXPECTED RESULTS — Dark centered
+    ══════════════════════════════════════ */
+    .results-section {
+      background: var(--forest); padding: 120px 7%;
+      position: relative; overflow: hidden;
+    }
+    .results-section::before {
+      content: 'RESULTS';
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20vw; font-weight: 700; color: rgba(255,255,255,0.03);
+      white-space: nowrap; pointer-events: none;
+    }
+    .results-grid {
+      display: grid; grid-template-columns: 1.2fr 1fr; gap: 80px; align-items: center;
+      position: relative; z-index: 2;
+    }
+    .results-image-wrap {
+      position: relative;
+    }
+    .results-image-wrap img {
+      width: 100%; border-radius: 20px;
+      box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+    }
+    .results-label-float {
+      position: absolute; top: -20px; left: -20px;
+      background: var(--gold); color: var(--ink);
+      padding: 12px 22px; border-radius: 12px;
+      font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em;
+      text-transform: uppercase;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .results-text h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 400;
+      color: white; line-height: 1.2; margin-bottom: 36px;
+    }
+    .results-text h2 em { font-style: italic; color: #a0d4a0; }
+
+    .timeline {
+      display: flex; flex-direction: column; gap: 0;
+      border-left: 2px solid rgba(255,255,255,0.1); padding-left: 28px; margin-bottom: 40px;
+    }
+    .timeline-item {
+      padding-bottom: 28px; position: relative;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute; left: -35px; top: 5px;
+      width: 14px; height: 14px; border-radius: 50%;
+      background: var(--sage); border: 3px solid var(--forest);
+      box-shadow: 0 0 0 4px rgba(168,196,168,0.2);
+    }
+    .timeline-week { font-size: 0.72rem; color: var(--sage); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 4px; }
+    .timeline-result { font-size: 0.92rem; color: rgba(255,255,255,0.75); line-height: 1.5; }
+
+    .advice-block {
+      background: rgba(255,255,255,0.05); border-left: 3px solid var(--sage);
+      border-radius: 0 12px 12px 0; padding: 20px 22px;
+    }
+    .advice-block p { font-size: 0.82rem; color: rgba(255,255,255,0.5); line-height: 1.7; }
+    .advice-block strong { color: rgba(255,255,255,0.75); display: block; margin-bottom: 8px; font-size: 0.82rem; }
+
+    /* ══════════════════════════════════════
+       LOOKBOOK — Editorial photo grid
+    ══════════════════════════════════════ */
+    .lookbook-section {
+      background: var(--parchment); overflow: hidden;
+    }
+    .lookbook-header {
+      padding: 80px 7% 60px; display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .lookbook-header h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.05; color: var(--ink);
+    }
+    .lookbook-header h2 em { display: block; font-style: italic; color: var(--green); }
+    .lookbook-header p { max-width: 320px; font-size: 0.88rem; color: var(--muted); line-height: 1.7; text-align: right; }
+
+    /* Magazine-style asymmetric grid */
+    .lookbook-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 340px 280px 380px;
+      gap: 4px;
+    }
+
+    .lg-a { grid-column: 1/3; grid-row: 1/2; }
+    .lg-b { grid-column: 3/4; grid-row: 1/3; }
+    .lg-c { grid-column: 4/5; grid-row: 1/2; }
+    .lg-d { grid-column: 1/2; grid-row: 2/3; }
+    .lg-e { grid-column: 2/3; grid-row: 2/3; }
+    .lg-f { grid-column: 4/5; grid-row: 2/4; }
+    .lg-g { grid-column: 1/3; grid-row: 3/4; }
+    .lg-h { grid-column: 3/4; grid-row: 3/4; }
+
+    .lookbook-cell {
+      overflow: hidden; position: relative; cursor: pointer;
+    }
+    .lookbook-cell img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+    .lookbook-cell:hover img { transform: scale(1.06); }
+    .lookbook-cell .cell-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(10,25,10,0.7) 0%, transparent 50%);
+      opacity: 0; transition: opacity 0.4s;
+    }
+    .lookbook-cell:hover .cell-overlay { opacity: 1; }
+    .cell-caption {
+      position: absolute; bottom: 16px; left: 16px; z-index: 2;
+      color: white; font-size: 0.75rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      opacity: 0; transition: opacity 0.4s; transform: translateY(6px);
+      transition: opacity 0.4s, transform 0.4s;
+    }
+    .lookbook-cell:hover .cell-caption { opacity: 1; transform: translateY(0); }
+
+    /* ══════════════════════════════════════
+       FULL PRODUCTS BANNER
+    ══════════════════════════════════════ */
+    .lineup-section {
+      background: var(--cream); padding: 120px 7%;
+      text-align: center; position: relative; overflow: hidden;
+    }
+    .lineup-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--green); margin-bottom: 20px;
+    }
+    .lineup-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3.8rem); font-weight: 300;
+      color: var(--ink); margin-bottom: 20px;
+    }
+    .lineup-section h2 em { font-style: italic; color: var(--green); }
+    .lineup-sub { font-size: 0.95rem; color: var(--muted); max-width: 560px; margin: 0 auto 60px; line-height: 1.7; }
+
+    .lineup-img-wrap {
+      position: relative; border-radius: 24px; overflow: hidden;
+      box-shadow: 0 40px 100px rgba(0,0,0,0.12);
+      max-width: 1000px; margin: 0 auto;
+    }
+    .lineup-img-wrap img { width: 100%; display: block; }
+    .lineup-img-wrap::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(30,77,30,0.15) 0%, transparent 60%);
+    }
+
+    /* ══════════════════════════════════════
+       ORDER / CONTACT — Dark CTA
+    ══════════════════════════════════════ */
+    .order-section {
+      background: var(--ink); overflow: hidden;
+      display: grid; grid-template-columns: 1fr 1fr;
+      min-height: 90vh;
+    }
+    .order-visual {
+      position: relative; overflow: hidden;
+    }
+    .order-visual img {
+      width: 100%; height: 100%; object-fit: cover; object-position: top center;
+    }
+    .order-visual::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to right, transparent 70%, var(--ink) 100%);
+    }
+
+    .order-content {
+      padding: 100px 7% 80px 6%;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .order-content .section-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em;
+      text-transform: uppercase; color: var(--sage); margin-bottom: 20px;
+    }
+    .order-content h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 300;
+      color: white; line-height: 1.15; margin-bottom: 20px;
+    }
+    .order-content h2 em { font-style: italic; color: #7cc47c; }
+    .order-content > p {
+      font-size: 0.92rem; color: rgba(255,255,255,0.5); line-height: 1.8; margin-bottom: 50px; font-weight: 300;
+    }
+
+    /* Form */
+    .order-form { display: flex; flex-direction: column; gap: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .fgroup { display: flex; flex-direction: column; gap: 6px; }
+    .fgroup label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.35); }
+    .fgroup input, .fgroup textarea, .fgroup select {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      color: white; padding: 13px 16px; border-radius: 10px;
+      font-family: 'Outfit', sans-serif; font-size: 0.9rem;
+      outline: none; transition: border-color 0.2s;
+      -webkit-appearance: none;
+    }
+    .fgroup input:focus, .fgroup textarea:focus, .fgroup select:focus { border-color: var(--mid); }
+    .fgroup input::placeholder, .fgroup textarea::placeholder { color: rgba(255,255,255,0.2); }
+    .fgroup textarea { resize: none; height: 90px; }
+    .fgroup select option { background: var(--ink); }
+
+    .btn-wa {
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+      background: #25D366; color: white;
+      padding: 16px 32px; border-radius: 12px;
+      font-size: 0.95rem; font-weight: 600; border: none; cursor: pointer;
+      transition: all 0.2s; text-decoration: none;
+    }
+    .btn-wa:hover { background: #1ebe5a; transform: translateY(-2px); box-shadow: 0 12px 30px rgba(37,211,102,0.3); }
+    .wa-icon { font-size: 1.2rem; }
+
+    .contact-alts {
+      display: flex; gap: 20px; margin-top: 28px; flex-wrap: wrap;
+    }
+    .contact-alt {
+      display: flex; align-items: center; gap: 8px;
+      color: rgba(255,255,255,0.35); font-size: 0.8rem; text-decoration: none;
+      transition: color 0.2s;
+    }
+    .contact-alt:hover { color: rgba(255,255,255,0.7); }
+    .contact-alt .icon { font-size: 1rem; }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    footer {
+      background: #050f05; color: rgba(255,255,255,0.5);
+      padding: 60px 7% 30px;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 2fr 1fr 1fr;
+      gap: 60px; padding-bottom: 50px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-logo img { height: 32px; filter: brightness(0) invert(0.7); margin-bottom: 16px; }
+    .footer-tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem; color: rgba(255,255,255,0.3); line-height: 1.7; font-style: italic;
+    }
+    .footer-phone {
+      margin-top: 20px; font-size: 0.9rem; color: var(--sage); font-weight: 500;
+    }
+    .footer-col h4 {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.16em;
+      text-transform: uppercase; color: rgba(255,255,255,0.5);
+      margin-bottom: 18px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col a { color: rgba(255,255,255,0.3); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--sage); }
+    .footer-bottom {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 28px; font-size: 0.75rem; color: rgba(255,255,255,0.2);
+    }
+
+    /* ══════════════════════════════════════
+       SCROLL REVEAL
+    ══════════════════════════════════════ */
+    .reveal {
+      opacity: 0; transform: translateY(28px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.15s; }
+    .reveal-delay-2 { transition-delay: 0.3s; }
+    .reveal-delay-3 { transition-delay: 0.45s; }
+
+    /* ══════════════════════════════════════
+       MOBILE
+    ══════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+
+      .hero h1 { font-size: clamp(2.2rem, 10vw, 3.8rem); }
+      .hero-sub { font-size: 0.88rem; }
+
+      .story-section { grid-template-columns: 1fr; }
+      .story-image-side { height: 60vw; }
+      .story-text-side { padding: 60px 7%; }
+
+      .elixir-section { flex-direction: column; }
+      .elixir-right { width: 100%; height: 55vw; }
+      .elixir-left { padding: 60px 7% 50px; }
+
+      .butter-body { grid-template-columns: 1fr; }
+      .butter-col-multi { flex-direction: row; height: 50vw; }
+
+      .cleanser-content { grid-template-columns: 1fr; }
+      .cleanser-right { height: 70vw; }
+      .cleanser-model { height: 100%; width: 100%; object-fit: cover; }
+
+      .conditioner-inner { grid-template-columns: 1fr; }
+      .cond-image-stack { min-height: 60vw; }
+      .cond-image-stack .img-float { display: none; }
+
+      .infographic-display { grid-template-columns: 1fr; }
+      .infographic-single { grid-template-columns: 1fr; }
+
+      .results-grid { grid-template-columns: 1fr; gap: 40px; }
+
+      .lookbook-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+      .lg-a,.lg-b,.lg-c,.lg-d,.lg-e,.lg-f,.lg-g,.lg-h {
+        grid-column: auto; grid-row: auto;
+      }
+
+      .order-section { grid-template-columns: 1fr; }
+      .order-visual { height: 60vw; }
+      .order-content { padding: 60px 7%; }
+      .form-row { grid-template-columns: 1fr; }
+
+      .footer-top { grid-template-columns: 1fr; gap: 36px; }
+      .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+
+      .butter-headline-strip h2 { font-size: clamp(2.5rem, 10vw, 5rem); }
+
+      .lookbook-header { flex-direction: column; gap: 16px; }
+      .lookbook-header p { text-align: left; }
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2.2rem; }
+      .elixir-left h2 { font-size: 2.4rem; }
+      .results-strip { grid-template-columns: 1fr; gap: 16px; }
+      .result-item + .result-item { border-left: none; border-top: 1px solid rgba(255,255,255,0.08); padding-left: 0; padding-top: 16px; }
+      .cleanser-feat-grid { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; }
+      .btn-glow, .btn-ghost { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav id="nav">
+  <a href="#" class="nav-logo">
+    <img src="IMG-20260514-WA0144.png" alt="Hair Growth with Tee"/>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#howto">How To Use</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#order">Order</a></li>
+  </ul>
+  <a href="https://wa.me/2348153209453" class="nav-cta" target="_blank">Order Now</a>
+  <button class="hamburger" onclick="document.getElementById('mobileNav').classList.add('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileNav">
+  <button class="mobile-close" onclick="document.getElementById('mobileNav').classList.remove('open')">✕</button>
+  <a href="#products" onclick="document.getElementById('mobileNav').classList.remove('open')">Products</a>
+  <a href="#howto" onclick="document.getElementById('mobileNav').classList.remove('open')">How To Use</a>
+  <a href="#results" onclick="document.getElementById('mobileNav').classList.remove('open')">Results</a>
+  <a href="#gallery" onclick="document.getElementById('mobileNav').classList.remove('open')">Gallery</a>
+  <a href="#order" onclick="document.getElementById('mobileNav').classList.remove('open')">Order Now</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-gradient"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Natural Hair Care</div>
+    <h1>
+      Where Growth Begins,<br/>
+      <em>Glow Follows.</em>
+    </h1>
+    <p class="hero-sub">
+      Premium herbal formulas crafted for edges, roots & length that truly thrives —
+      for men and women, every hair type.
+    </p>
+    <div class="hero-actions">
+      <a href="#order" class="btn-glow">
+        <span>🌿</span> Shop the Collection
+      </a>
+      <a href="#products" class="btn-ghost">Explore Products</a>
+    </div>
+  </div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- ══ MARQUEE ══ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span class="marquee-item">Tee Growth Elixir</span>
+    <span class="marquee-item">Tee Nourish & Seal Butter</span>
+    <span class="marquee-item">Tee Scalp Cleanser</span>
+    <span class="marquee-item">Tee Moisture Restore Conditioner</span>
+    <span class="marquee-item">Hair Growth with Tee</span>
+    <span class="marquee-item">Where Growth Begins, Glow Follows</span>
+    <span class="marquee-item">Natural Herbal Formula</span>
+    <span class="marquee-item">Tee Growth Elixir</span>
+    <span class="marquee-item">Tee Nourish & Seal Butter</span>
+    <span class="marquee-item">Tee Scalp Cleanser</span>
+    <span class="marquee-item">Tee Moisture Restore Conditioner</span>
+    <span class="marquee-item">Hair Growth with Tee</span>
+    <span class="marquee-item">Where Growth Begins, Glow Follows</span>
+    <span class="marquee-item">Natural Herbal Formula</span>
+  </div>
+</div>
+
+<!-- ══ BRAND STORY ══ -->
+<section class="story-section" id="about">
+  <div class="story-image-side">
+    <img src="IMG-20260507-WA0208.jpg" alt="Hair Growth with Tee — Brand Story"/>
+  </div>
+  <div class="story-text-side">
+    <div class="story-label reveal">Our Story</div>
+    <h2 class="reveal reveal-delay-1">
+      Your hair was made to <em>grow.</em> We just give it what it needs.
+    </h2>
+    <div class="story-body reveal reveal-delay-2">
+      <p>Hair Growth with Tee was born from a simple truth: healthy hair doesn't come from harsh chemicals or empty promises — it comes from deep nourishment, the right ingredients, and consistency.</p>
+      <p>We blended potent herbal extracts with premium natural oils and butters to create a complete hair care system that works from root to tip. Whether you're battling a receding hairline, thinning edges, or just want your natural hair to thrive, we have a formula made exactly for you.</p>
+      <p>Every product in our line is thoughtfully designed to cleanse, nourish, strengthen and protect — giving your hair what it deserves at every step.</p>
+    </div>
+    <div class="story-stats reveal reveal-delay-3">
+      <div class="stat-item">
+        <div class="stat-num">4</div>
+        <div class="stat-label">Specialised Products</div>
+      </div>
+      <div class="stat-item" style="padding-left:30px;">
+        <div class="stat-num">2–3</div>
+        <div class="stat-label">Weeks to First Results</div>
+      </div>
+      <div class="stat-item" style="padding-left:30px;">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Natural Ingredients</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRODUCTS ══ -->
+<div id="products"></div>
+
+<!-- PRODUCT 1: TEE GROWTH ELIXIR -->
+<section class="elixir-section">
+  <div class="elixir-left">
+    <div class="prod-label">01 — Signature Product</div>
+    <h2>
+      The Growth
+      <em>Elixir.</em>
+    </h2>
+    <p class="elixir-body">
+      Our most powerful formula. The Tee Growth Elixir nourishes roots at the deepest level, stimulates circulation, revives thinning areas and supports visible new growth — for edges, roots and length that truly thrives. Infused with potent herbs and premium botanical oils suited for all hair types.
+    </p>
+    <div class="benefit-pills">
+      <span class="pill">Stimulates Scalp</span>
+      <span class="pill">Strengthens Roots</span>
+      <span class="pill">Reduces Breakage</span>
+      <span class="pill">Supports Hairline</span>
+      <span class="pill">All Hair Types</span>
+      <span class="pill">Men & Women</span>
+    </div>
+    <a href="https://wa.me/2348153209453?text=Hi! I'd like to order the Tee Growth Elixir" class="btn-glow" target="_blank" style="align-self:flex-start;">
+      Order via WhatsApp
+    </a>
+    <div class="results-strip">
+      <div class="result-item">
+        <div class="result-week">2–3 wks</div>
+        <div class="result-desc">Reduced breakage</div>
+      </div>
+      <div class="result-item">
+        <div class="result-week">4–6 wks</div>
+        <div class="result-desc">Noticeable strength</div>
+      </div>
+      <div class="result-item">
+        <div class="result-week">8–12 wks</div>
+        <div class="result-desc">Visible thickening</div>
+      </div>
+    </div>
+  </div>
+  <div class="elixir-right">
+    <img class="main-img" src="IMG-20260507-WA0206.jpg" alt="Tee Growth Elixir"/>
+    <img class="accent-img" src="1000764440.jpg" alt="Tee Growth Elixir — also available in travel size"/>
+  </div>
+  <div class="elixir-bg-text">ELIXIR</div>
+</section>
+
+<!-- PRODUCT 2: TEE NOURISH & SEAL BUTTER -->
+<section class="butter-section">
+  <div class="butter-headline-strip">
+    <h2>Tee Nourish<br/><em>&amp; Seal Butter.</em></h2>
+  </div>
+  <div class="butter-body">
+    <!-- Image 1 -->
+    <div class="butter-col-img">
+      <img src="IMG-20260511-WA0062(1).jpg" alt="Tee Nourish & Seal Butter — with flowers"/>
+    </div>
+    <!-- Text -->
+    <div class="butter-col-text">
+      <div class="prod-label">02 — Moisture & Strength</div>
+      <p>
+        Rich, creamy and deeply nourishing — the Tee Nourish & Seal Butter locks in moisture, softens dry hair and forms a protective shield around every strand. Formulated with a luxurious blend of natural butters and oils.
+      </p>
+      <ul class="feat-list">
+        <li>
+          <span class="feat-icon">💧</span>
+          Seals in moisture, prevents dryness and reduces breakage
+        </li>
+        <li>
+          <span class="feat-icon">💪</span>
+          Helps hair feel stronger and improves thickness appearance
+        </li>
+        <li>
+          <span class="feat-icon">✨</span>
+          Supports edge care and protects against environmental damage
+        </li>
+        <li>
+          <span class="feat-icon">🌀</span>
+          Adds light hold, smooths frizz and supports natural styles & braids
+        </li>
+      </ul>
+      <a href="https://wa.me/2348153209453?text=Hi! I'd like to order the Tee Nourish & Seal Butter" class="btn-glow" target="_blank">
+        Order via WhatsApp
+      </a>
+    </div>
+    <!-- Two stacked images -->
+    <div class="butter-col-multi">
+      <div>
+        <img src="IMG-20260507-WA0205.jpg" alt="Tee Nourish & Seal Butter — product jars"/>
+      </div>
+      <div>
+        <img src="IMG-20260508-WA0002.jpg" alt="Tee Nourish & Seal Butter — brand ambassador"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT 3: TEE SCALP CLEANSER -->
+<section class="cleanser-section">
+  <div class="cleanser-bg"></div>
+  <div class="cleanser-content">
+    <div class="cleanser-left">
+      <div class="prod-label" style="color:rgba(160,212,160,0.8)">03 — Cleanse & Soothe</div>
+      <h2>
+        Tee Scalp
+        <em>Cleanser.</em>
+      </h2>
+      <p>
+        A gentle, refreshing cleanse that removes buildup, sweat and impurities without stripping moisture from your scalp. Infused with natural extracts to soothe irritation, calm itching, and strengthen your hair at the root — leaving your scalp perfectly prepped to absorb the Growth Elixir.
+      </p>
+      <div class="cleanser-feat-grid">
+        <div class="cfeat">
+          <div class="cfeat-title">No Stripping</div>
+          <div class="cfeat-body">Removes buildup without robbing your scalp of its natural oils.</div>
+        </div>
+        <div class="cfeat">
+          <div class="cfeat-title">Scalp Soothing</div>
+          <div class="cfeat-body">Natural extracts calm itching, flaking and irritation.</div>
+        </div>
+        <div class="cfeat">
+          <div class="cfeat-title">Strengthen Strands</div>
+          <div class="cfeat-body">Active botanicals fortify hair from the root on every wash.</div>
+        </div>
+        <div class="cfeat">
+          <div class="cfeat-title">Dandruff Relief</div>
+          <div class="cfeat-body">Visible flake reduction within 1–2 weeks of consistent use.</div>
+        </div>
+      </div>
+      <a href="https://wa.me/2348153209453?text=Hi! I'd like to order the Tee Scalp Cleanser" class="btn-glow" target="_blank" style="align-self:flex-start;">
+        Order via WhatsApp
+      </a>
+    </div>
+    <div class="cleanser-right">
+      <img class="cleanser-model" src="IMG-20260508-WA0004.jpg" alt="Tee Scalp Cleanser — brand ambassador"/>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT 4: TEE MOISTURE RESTORE CONDITIONER -->
+<section class="conditioner-section">
+  <div class="conditioner-inner">
+    <div class="cond-image-stack">
+      <img class="img-main" src="IMG-20260511-WA0064(1).jpg" alt="Tee Moisture Restore Conditioner & Scalp Cleanser"/>
+      <img class="img-float" src="IMG-20260507-WA0207.jpg" alt="Tee Moisture Restore Conditioner — model"/>
+    </div>
+    <div class="cond-text">
+      <div class="prod-label" style="color:var(--green)">04 — Hydrate & Restore</div>
+      <h2>
+        Tee Moisture<br/>Restore
+        <em>Conditioner.</em>
+      </h2>
+      <p>
+        A creamy, botanical-rich conditioner that transforms your hair after every wash. Designed to detangle, restore lost moisture and bring back natural shine — without weighing your hair down. Perfect for use after the Tee Scalp Cleanser to complete your wash day routine.
+      </p>
+      <div class="cond-bullets">
+        <div class="cond-bullet">
+          <div class="bullet-num">01</div>
+          <div class="bullet-text">
+            <strong>Deep Detangling</strong>
+            <span>Slips through knots and tangles effortlessly, reducing breakage during combing.</span>
+          </div>
+        </div>
+        <div class="cond-bullet">
+          <div class="bullet-num">02</div>
+          <div class="bullet-text">
+            <strong>Shine Restoration</strong>
+            <span>Botanical oils seal the cuticle and bring back that natural, healthy glow.</span>
+          </div>
+        </div>
+        <div class="cond-bullet">
+          <div class="bullet-num">03</div>
+          <div class="bullet-text">
+            <strong>Moisture Infusion</strong>
+            <span>Keeps hair hydrated between wash days, reducing dryness and brittleness.</span>
+          </div>
+        </div>
+        <div class="cond-bullet">
+          <div class="bullet-num">04</div>
+          <div class="bullet-text">
+            <strong>Curl & Wave Definition</strong>
+            <span>Enhances your natural curl pattern and supports definition without crunch.</span>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/2348153209453?text=Hi! I'd like to order the Tee Moisture Restore Conditioner" class="btn-glow" target="_blank">
+        Order via WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ HOW TO USE ══ -->
+<section class="howto-section" id="howto">
+  <div class="howto-header">
+    <div class="section-label">Usage Guides</div>
+    <h2>How to Use the <em>Collection</em></h2>
+  </div>
+
+  <div class="howto-tabs">
+    <button class="tab-btn active" onclick="switchTab('women')">For Women</button>
+    <button class="tab-btn" onclick="switchTab('men')">For Men</button>
+  </div>
+
+  <div class="tab-panel active" id="tab-women">
+    <div class="infographic-display">
+      <img src="IMG-20260507-WA0210.jpg" alt="How to use the Hair Oil — Women (with results)"/>
+      <img src="IMG-20260507-WA0212.jpg" alt="How to use the Hair Butter — Women"/>
+    </div>
+  </div>
+
+  <div class="tab-panel" id="tab-men">
+    <div class="infographic-single">
+      <img src="IMG-20260507-WA0213.jpg" alt="How to use the Hair Oil — Men"/>
+      <img src="IMG-20260507-WA0215.jpg" alt="How to use the Hair Butter — Men"/>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPECTED RESULTS ══ -->
+<section class="results-section" id="results">
+  <div class="results-grid">
+    <div class="results-image-wrap reveal">
+      <img src="IMG-20260507-WA0209.jpg" alt="Expected Results — Hair Growth with Tee"/>
+      <div class="results-label-float">⚡ Proven Results</div>
+    </div>
+    <div class="results-text">
+      <h2 class="reveal">
+        Real timelines.<br/>Real <em>transformation.</em>
+      </h2>
+      <div class="timeline reveal reveal-delay-1">
+        <div class="timeline-item">
+          <div class="timeline-week">Weeks 2–3</div>
+          <div class="timeline-result">Reduced breakage and shedding. Hair starts to feel visibly stronger and healthier at the root.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-week">Weeks 4–6</div>
+          <div class="timeline-result">Noticeable improvement in thickness and strength. Small baby hairs may begin to appear around the hairline and edges.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-week">Weeks 6–8</div>
+          <div class="timeline-result">Fuller appearance overall. Edges look more defined. Scalp health is visibly improved.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-week">Weeks 8–12</div>
+          <div class="timeline-result">Visible thickening and length retention. Hairline growth becomes noticeable. Results continue improving with consistency.</div>
+        </div>
+      </div>
+      <div class="advice-block reveal reveal-delay-2">
+        <strong>⚠️ Important — For Best Results</strong>
+        <p>Use consistently (minimum 3 times weekly). Avoid tight hairstyles and excessive heat. Maintain a healthy diet and hydration. Natural hair growth takes patience — trust the process.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRODUCT LINEUP ══ -->
+<section class="lineup-section">
+  <div class="lineup-label reveal">The Complete System</div>
+  <h2 class="reveal reveal-delay-1">
+    The Evidence of<br/><em>Growth.</em>
+  </h2>
+  <p class="lineup-sub reveal reveal-delay-2">
+    True growth is about quality. Our formula restores natural luster and eliminates frizz, leaving your hair resilient and full of life.
+  </p>
+  <div class="lineup-img-wrap reveal reveal-delay-3">
+    <img src="IMG-20260507-WA0214.jpg" alt="Hair Growth with Tee — Full product lineup"/>
+  </div>
+</section>
+
+<!-- ══ LOOKBOOK / GALLERY ══ -->
+<section class="lookbook-section" id="gallery">
+  <div class="lookbook-header">
+    <h2>
+      A look at<br/>
+      <em>the brand.</em>
+    </h2>
+    <p>Where nature meets craftsmanship. Every image a reminder that beautiful hair starts with beautiful ingredients.</p>
+  </div>
+  <div class="lookbook-grid">
+    <div class="lookbook-cell lg-a">
+      <img src="IMG-20260514-WA0143.jpg" alt="Tee Nourish Butter with flowers"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Tee Nourish & Seal Butter</div>
+    </div>
+    <div class="lookbook-cell lg-b">
+      <img src="IMG-20260508-WA0002.jpg" alt="Brand ambassador holding butter"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Our Ambassador</div>
+    </div>
+    <div class="lookbook-cell lg-c">
+      <img src="IMG-20260511-WA0062(1).jpg" alt="Tee Growth Elixir bottles"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Tee Growth Elixir</div>
+    </div>
+    <div class="lookbook-cell lg-d">
+      <img src="IMG-20260507-WA0208.jpg" alt="Scalp Cleanser and Conditioner"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Scalp Cleanser</div>
+    </div>
+    <div class="lookbook-cell lg-e">
+      <img src="IMG-20260511-WA0063.jpg" alt="Growth Elixir with flowers"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Tee Growth Elixir</div>
+    </div>
+    <div class="lookbook-cell lg-f">
+      <img src="IMG-20260508-WA0006.jpg" alt="Model showing shirt with product names"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Hair Growth with Tee</div>
+    </div>
+    <div class="lookbook-cell lg-g">
+      <img src="1000764436.jpg" alt="Multiple Nourish Butter jars"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Tee Nourish & Seal Butter</div>
+    </div>
+    <div class="lookbook-cell lg-h">
+      <img src="IMG-20260508-WA0009.jpg" alt="Model with conditioner"/>
+      <div class="cell-overlay"></div>
+      <div class="cell-caption">Moisture Restore Conditioner</div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits infographic section -->
+<section style="background:var(--cream); padding:100px 7%; overflow:hidden;">
+  <div style="text-align:center; margin-bottom:50px;">
+    <div class="lineup-label reveal">Why It Works</div>
+    <h2 class="reveal reveal-delay-1" style="font-family:'Cormorant Garamond',serif; font-size:clamp(2rem,4vw,3.5rem); font-weight:300; color:var(--ink);">
+      Science-backed. <em style="font-style:italic; color:var(--green)">Nature-powered.</em>
+    </h2>
+  </div>
+  <div style="max-width:900px; margin:0 auto; border-radius:20px; overflow:hidden; box-shadow:0 30px 80px rgba(0,0,0,0.08);">
+    <img src="IMG-20260511-WA0063.jpg" alt="Product Benefits — Growth Elixir & Nourish Butter" style="width:100%; display:block;"/>
+  </div>
+</section>
+
+<!-- ══ ORDER / CONTACT ══ -->
+<section class="order-section" id="order">
+  <div class="order-visual">
+    <img src="IMG-20260508-WA0003(2).jpg" alt="Hair Growth with Tee — Order Now"/>
+  </div>
+  <div class="order-content">
+    <div class="section-label">Place Your Order</div>
+    <h2>
+      Ready to start your<br/><em>hair journey?</em>
+    </h2>
+    <p>Fill in your details below and we'll connect you directly on WhatsApp to confirm your order and discuss your hair needs. We're here to help you find the right products.</p>
+    <div class="order-form">
+      <div class="form-row">
+        <div class="fgroup">
+          <label>Your Name</label>
+          <input type="text" id="fname" placeholder="e.g. Amaka Johnson"/>
+        </div>
+        <div class="fgroup">
+          <label>WhatsApp Number</label>
+          <input type="tel" id="fphone" placeholder="+234 ..."/>
+        </div>
+      </div>
+      <div class="fgroup">
+        <label>Product(s) you want</label>
+        <select id="fproduct">
+          <option value="">— Select a product —</option>
+          <option>Tee Growth Elixir</option>
+          <option>Tee Nourish & Seal Butter</option>
+          <option>Tee Scalp Cleanser</option>
+          <option>Tee Moisture Restore Conditioner</option>
+          <option>Complete Collection (All 4)</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label>Message / Special Request</label>
+        <textarea id="fmsg" placeholder="Any questions about your hair type or concerns?"></textarea>
+      </div>
+      <button class="btn-wa" onclick="sendOrder()">
+        <span class="wa-icon">💬</span> Send Order via WhatsApp
+      </button>
+    </div>
+    <div class="contact-alts">
+      <a href="tel:+2348153209453" class="contact-alt">
+        <span class="icon">📞</span> 08153209453
+      </a>
+      <a href="https://wa.me/2348153209453" class="contact-alt" target="_blank">
+        <span class="icon">💬</span> WhatsApp Direct
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <img src="1000765020.jpg" alt="Hair Growth with Tee"/>
+      </div>
+      <p class="footer-tagline">
+        "Where growth begins &amp; glow follows."<br/>
+        Natural herbal hair care for roots, edges &amp; length that thrives.
+      </p>
+      <div class="footer-phone">📞 08153209453</div>
+    </div>
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#products">Tee Growth Elixir</a></li>
+        <li><a href="#products">Tee Nourish & Seal Butter</a></li>
+        <li><a href="#products">Tee Scalp Cleanser</a></li>
+        <li><a href="#products">Moisture Restore Conditioner</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="https://wa.me/2348153209453" target="_blank">WhatsApp Orders</a></li>
+        <li><a href="#howto">How to Use</a></li>
+        <li><a href="#results">Expected Results</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Hair Growth with Tee. All rights reserved.</p>
+    <p>Designed with 🌿 for natural beauty</p>
+  </div>
+</footer>
+
+<script>
+  /* ── Nav scroll effect ── */
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* ── How To Use tabs ── */
+  function switchTab(tab) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    document.getElementById('tab-' + tab).classList.add('active');
+  }
+
+  /* ── WhatsApp order ── */
+  function sendOrder() {
+    const name = document.getElementById('fname').value.trim() || 'Customer';
+    const phone = document.getElementById('fphone').value.trim();
+    const product = document.getElementById('fproduct').value || 'your products';
+    const msg = document.getElementById('fmsg').value.trim();
+    let text = `Hi! I'm ${name} and I'd like to order: ${product}.`;
+    if (msg) text += ` ${msg}`;
+    if (phone) text += ` My number: ${phone}.`;
+    window.open(`https://wa.me/2348153209453?text=${encodeURIComponent(text)}`, '_blank');
+  }
+
+  /* ── Scroll reveal ── */
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  revealEls.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
